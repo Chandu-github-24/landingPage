@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    letter-spacing: 1px;
+}
+
+body {
+    color: white;
+    background-color: #2F1893;
+    /* background-color: white; */
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.navbar {
+    margin-left: 280px;
+}
+
+.NAVIGATION {
+    font-size: larger;
+    text-transform: capitalize;
+    margin: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.navbarone ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbarone ul li {
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.navbarone ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+a.navOver:hover {
+    background-color: #E93A7D;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.sectionone {
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.signup {
+    color: black;
+    height: 620px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid EBEAED;
+    border-radius: 15px;
+}
+
+.pages {
+    max-width: 50%;
+}
+
+.signup {
+    max-width: 50%;
+    color: grey;
+}
+
+.pages p {
+    text-align: left;
+    font-size: 17px;
+    margin: -35px 214px;
+}
+
+.signup h2 {
+    margin: 25px auto 35px;
+    font-size: xxx-large;
+    color: darkblue;
+}
+
+.inputarea {
+    padding: 20px 65px;
+    margin: 15px auto;
+    border: 1px solid grey;
+    border-radius: 45px;
+}
+
+.terms {
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+.signinbtn {
+    font-size: 20px;
+    color: white;
+    background-color: #2F1893;
+    padding: 15px 100px;
+    margin: 14px 0px;
+    border-radius: 25px;
+    border: 2px solid #2F1893;
+}
+
+.twitterbtn {
+    font-size: 20px;
+    color: #FFF;
+    background-color: #1DA1F2;
+    padding: 10px 55px;
+    margin: 14px 0px;
+    border-radius: 27px;
+    border: 2px solid #1DA1F2;
+}
+
+.hrline {
+    width: 30%;
+    height: 1px;
+    margin: 15px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.learnbtn {
+    margin: 105px 215px;
+    border: 2px solid #E93A7D;
+    border-radius: 10px;
+    display: flex;
+    color: #FFF;
+    font-size: large;
+    align-items: flex-start;
+    padding: 15px 30px;
+    background-color: #E93A7D;
+}
+
+.pages h1 {
+    font-size: 48px;
+    text-align: left;
+    margin: 0px 0px 70px 220px;
+}
+
+.signup h3 {
+    margin: 15px auto;
+}
+
+.signinLAst {
+    color: #92ECE2;
+}
